@@ -1,0 +1,195 @@
+body{
+	margin:0;
+	padding:0;
+	font-size: 14px;
+    line-height: 1.42857143;
+	font-family: "Open Sans", sans-serif;
+	    background: url(../img/hero.jpg) top center;
+    background-size: cover;
+    position: relative;
+}
+
+*{
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+	
+}
+@media (min-width: 768px){
+	.wrapper{
+		width:750px;
+	}
+}
+@media (min-width: 968px){
+	.wrapper{
+		width:950px;
+	}
+}
+@media (min-width: 1200px){
+	.wrapper{
+		width:1170px;
+	}
+}
+.wrapper{
+  padding-right: 15px;
+  padding-left: 15px;
+  margin:0 auto;
+}
+.wrapper-inner{
+	margin-left:-10px;
+	margin-right:-10px;
+}
+@media(min-width:768px){
+	.block-1,
+	.block-2,
+	.block-3,
+	.block-4,
+	.block-5,
+	.block-6,
+	.block-7,
+	.block-8,
+	.block-9,
+	.block-10,
+	.block-11,
+	.block-12{
+		float:left;
+	}
+	}
+	
+    .block-1,
+	.block-2,
+	.block-3,
+	.block-4,
+	.block-5,
+	.block-6,
+	.block-7,
+	.block-8,
+	.block-9,
+	.block-10,
+	.block-11,
+	.block-12{
+		padding:15px;
+		position:relative;
+	}
+	
+@media(min-width:768px){
+.block-1{
+	width:8.3333333333%;
+}
+.block-2{
+	width:16.6666666667%;
+}
+.block-3{
+	width:25%;
+}
+.block-4{
+	width:33.3333333333%;
+}
+.block-5{
+	width:41.6666666667%;
+}
+
+.block-6{
+	width:50%;
+}
+.block-7{
+	width:58.3333333333%;
+}
+.block-8{
+	width:66.6666666667%;
+}
+.block-9{
+	width:75%;
+}
+.block-10{
+	width:83.3333333333%;
+}
+.block-11{
+	width:91.6666666667%;
+}
+.block-12{
+	width:100%;
+}
+}
+
+/*******************************************/
+a{
+	text-decoration:none;
+}
+
+.clear{
+	clear:both;
+}
+
+.underline{
+	border-bottom:3px solid #edb83a;;
+	width: 250px;
+	clear: both;
+}
+
+.responsive{
+	width: 100%;
+}
+
+
+/* ----------------------------------------start of actual code design code --------------------------------------*/
+
+/*****************************Global Style***************************/
+
+div, nav, section, header{
+	display: block;
+}
+
+ul, ol{
+	margin: 0;
+	padding: 0;
+}
+
+ul, li{
+	list-style: none;
+}
+
+a {
+    color: #FF5274;
+    -webkit-transition-timing-function: ease;
+    transition-timing-function: ease;
+    -webkit-transition-duration: 200ms;
+    transition-duration: 200ms;
+    -webkit-transition-property: color, border-color, background-color;
+    transition-property: color, border-color, background-color;
+}
+
+img{
+	vertical-align: middle;
+	border: 0;
+}
+
+.text-center{
+	text-align: center;
+}
+
+h1{
+	font-size: 60px;
+}
+
+
+
+h1, .h1, h2, .h2, h3, .h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: inherit;
+    font-weight: 400;
+    line-height: 1.1;
+    color: inherit;
+}
+
+/*************************Global Style ends**************************/
+.center{
+  text-align: center;
+}
+.margin10{
+ margin-top: : 200px;
+}
